@@ -4,9 +4,11 @@
   </head>
   <body>
     <h2>TEXT </h2>
-   <p><strong>Firstword</strong> First Paragraph</p>
-     <blockquote><p><strong>SecondWord</strong> SecondParagraph</p></blockquote>
-    <p><strong>ThirdWord</strong> ThirdParagraph</p>
+   <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+     <blockquote><p><strong>Why do we use it?</strong>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p></blockquote>
+    <p><strong>Where does it come from?</strong>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
     <h2>TABLE</h2>
     <table><caption>Broncos Game Score</caption>
     <thead>
@@ -65,27 +67,45 @@
   <img src="https://vignette.wikia.nocookie.net/logopedia/images/a/a3/Broncos_Alternate_logo.gif/revision/latest?cb=20131104164121" width="50"/>
   <li><a href="https://www.denverbroncos.com/team/players-roster/">Denver Broncos</a>
     <ul>
-      <li>Quarterback
+      <li>Coach: Vic Fangio</li>
+      <li>Quarterback</li>
         <ul>
-          <li>Joe Flacco
-          </li>
+          <li>Joe Flacco</li>
           <li>Brandon Allen</li>
         </ul>
-      </li>
     </ul>
-  </li>
 </ul>
 <ul>
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Philadelphia_Eagles_logo.svg/800px-Philadelphia_Eagles_logo.svg.png" width="50"/>
   <li><a href="https://www.philadelphiaeagles.com/team/players-roster/">Philadelphia Eagles</a>
     <ul>
-      <li>Quarterback
+      <li>Coach: Doug Pederson</li>
+      <li>Quarterback</li>
         <ul>
-          <li>Carson Wentz
-          </li>
+          <li>Carson Wentz</li>
           <li>Josh McCown</li>
         </ul>
-      </li>
     </ul>
-  </li>
 </ul>
+<h2>FORM</h2>
+<form>
+  <input type="text" name="firstName" placeholder="firstName">
+  <input type="text" name="lastName" placeholder="lastName"><br>
+   <label>Favorite Sport</label>
+             <select id = "myList">
+               <option value = "Football">Football</option>
+               <option value = "Basketball">BasketBall</option>
+               <option value = "Hockey">Hockey</option>
+               <option value = "Soccer">Soccer</option>
+             </select><br>
+  <label>I have:</label>
+  <input type="checkbox" name="Sport" value="Attended"> attended
+<input type="checkbox" name="Sport" value="Played"> played
+<input type="checkbox" name="Sport" value="Coach"> coached
+  <input type="checkbox" name="Sport" value="Bet On"> bet on<br>
+  <label>For this sport I prefer:</label>
+  <input type="radio" name="preference" value="Amateur"> Amateur
+<input type="radio" name="preference" value="College"> College
+<input type="radio" name="preference" value="Professional"> Professional<br>
+  <input type="submit" value="Submit Query">
+</form>
