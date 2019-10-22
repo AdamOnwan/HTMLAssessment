@@ -1,4 +1,4 @@
-h2, h3, h4, h5 {
+.subjectHeader {
 color: purple;
 font-family: sans-serif;
 }
@@ -7,10 +7,29 @@ text-align: center;
 border: 1px solid blue;
 }
 td, th, tr {
-border: 1px solid blue;
+border: 1px solid green;
 text-align: center;
-
 }
-#subjectHeader {
+th {
+color: red;
+}
+ul {
 list-style: square;
+}
+.hyperLink:hover {
+background-color: yellow;
+}
+blockquote {
+background-color: brown;
+color: white;
+}
+#teamRoster > li > img {
+position: relative;
+opacity: .20;
+top: 80px;
+left: 40px;
+height: 100px;
+}
+#checkbox-grid {
+list-style-type: none;
 }
