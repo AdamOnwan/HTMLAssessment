@@ -1,0 +1,16 @@
+h2, h3, h4, h5 {
+color: purple;
+font-family: sans-serif;
+}
+#scoreBoard {
+text-align: center;
+border: 1px solid blue;
+}
+td, th, tr {
+border: 1px solid blue;
+text-align: center;
+
+}
+#subjectHeader {
+list-style: square;
+}
